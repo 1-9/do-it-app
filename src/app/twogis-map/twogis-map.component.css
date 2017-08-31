@@ -1,0 +1,49 @@
+#map
+{
+  background: #ccc;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mapControl
+{
+  left: 25px;
+  position: absolute;
+  top: 25px;
+  z-index: 99;
+}
+
+.mapControl button
+{
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.mapControl button:hover
+{
+    background: #ccc;
+}
+
+    .zoomControls
+    {
+        margin-bottom: 10px;
+    }
+
+        .zoomControls button
+        {
+            background: #ebebeb;
+            border: 2px solid #000;
+            border-radius: 50%;
+            color: #000;
+            cursor: pointer;
+            font-family: monospace;
+            font-size: 20px;
+            height: 32px;
+            outline: none;
+            width: 32px;
+        }
+
+    .markerControls button
+    {
+        font-size: 18px;
+    }
